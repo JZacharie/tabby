@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  tabbyml:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: v21.12
+    created: "2024-07-16T05:48:22.23570661Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: A simple, self-hosted, easy-to-use platform for dev completion
+    digest: 39f20e4b545a51ff7bfc6cd41cc50ce3bb86acbc35e310ea9a2fd8e044cd5bc3
+    home: https://tabby.tabbyml.com/
+    icon: https://avatars3.githubusercontent.com/u/20912696?s=400&v=4?sanitize=true
+    keywords:
+    - tabbyml
+    - server
+    - hosted
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: joseph@zacharie.org
+      name: jzacharie
+    name: tabbyml
+    sources:
+    - https://github.com/TabbyML/tabby
+    urls:
+    - https://github.com/JZacharie/tabby/releases/download/tabbyml-1.1.0/tabbyml-1.1.0.tgz
+    version: 1.1.0
+generated: "2024-07-16T05:48:22.23571719Z"
