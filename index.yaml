@@ -7,6 +7,27 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: 2024.12.3
+    created: "2024-12-18T10:31:51.010179699Z"
+    dependencies:
+    - name: home-assistant
+      repository: http://pajikos.github.io/home-assistant-helm-chart
+      version: 0.2.93
+    description: A simple, self-hosted, easy-to-use platform for dev completion
+    digest: 281e837cf160a13097f8ae52f211cb13aad8d7f0d7c7cee99052c2c310e6fe42
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: joseph@zacharie.org
+      name: jzacharie
+    name: home-assistant-jojojo
+    urls:
+    - https://github.com/JZacharie/tabby/releases/download/home-assistant-jojojo-v0.1.1/home-assistant-jojojo-v0.1.1.tgz
+    version: v0.1.1
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 2024.12.3
     created: "2024-12-18T10:26:49.264268908Z"
     dependencies:
     - name: home-assistant
@@ -52,4 +73,4 @@ entries:
     urls:
     - https://github.com/JZacharie/tabby/releases/download/tabbyml-1.1.0/tabbyml-1.1.0.tgz
     version: 1.1.0
-generated: "2024-12-18T10:26:49.264297091Z"
+generated: "2024-12-18T10:31:51.010194357Z"
