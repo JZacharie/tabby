@@ -43,6 +43,38 @@ entries:
     urls:
     - https://github.com/JZacharie/tabby/releases/download/home-assistant-jojojo-v0.1.0/home-assistant-jojojo-v0.1.0.tgz
     version: v0.1.0
+  linkwarden:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update linkwarden/linkwarden docker tag to v2.9.3
+    apiVersion: v2
+    appVersion: v2.9.3
+    created: "2025-02-16T14:39:06.001600101Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: linkwarden helm package
+    digest: 101bc3e1b61bb55d70495de8a0bf44f46bdebf831ee7de2339436a45735e6421
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/linkwarden
+    icon: https://www.linkwarden.co/favicon-32x32.png
+    keywords:
+    - pdf-signature
+    - pdf-sign
+    - document-signing
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: linkwarden
+    sources:
+    - https://github.com/linkwardenco/linkwarden
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/linkwarden
+    urls:
+    - https://github.com/JZacharie/tabby/releases/download/linkwarden-2.9.3/linkwarden-2.9.3.tgz
+    version: 2.9.3
   tabby:
   - annotations:
       artifacthub.io/changes: |-
@@ -105,4 +137,4 @@ entries:
     urls:
     - https://github.com/JZacharie/tabby/releases/download/tabbyml-1.1.0/tabbyml-1.1.0.tgz
     version: 1.1.0
-generated: "2025-02-16T14:33:57.500448439Z"
+generated: "2025-02-16T14:39:06.001615229Z"
