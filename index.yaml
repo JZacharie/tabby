@@ -60,4 +60,36 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/faster-whisper-2.4.1/faster-whisper-2.4.1.tgz
     version: 2.4.1
-generated: "2025-02-17T09:01:31.573417869Z"
+  linkwarden:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update linkwarden/linkwarden docker tag to v2.9.3
+    apiVersion: v2
+    appVersion: v2.9.3
+    created: "2025-02-17T17:29:57.76538458Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: linkwarden helm package
+    digest: f53c008bfdfc9eb3008c43834b36bed5d16244a91ad1728bd3a40c8fe7287280
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/linkwarden
+    icon: https://www.linkwarden.co/favicon-32x32.png
+    keywords:
+    - pdf-signature
+    - pdf-sign
+    - document-signing
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: linkwarden
+    sources:
+    - https://github.com/linkwardenco/linkwarden
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/linkwarden
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/linkwarden-2.9.3/linkwarden-2.9.3.tgz
+    version: 2.9.3
+generated: "2025-02-17T17:29:57.76539496Z"
