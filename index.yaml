@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  faster-whisper:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update faster-whisper/faster-whisper docker tag to 2.4.0
+    apiVersion: v2
+    appVersion: 2.4.0
+    created: "2025-02-17T07:58:51.121964111Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: faster-whisper helm package
+    digest: 0c76f8d12172c6f5f4d17202887b47fd02c111dec4af6f04cff8acf783a6baf3
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/faster-whisper
+    icon: https://www.faster-whisper.co/favicon-32x32.png
+    keywords:
+    - pdf-signature
+    - pdf-sign
+    - document-signing
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: faster-whisper
+    sources:
+    - https://github.com/faster-whisperco/faster-whisper
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/faster-whisper
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/faster-whisper-2.4.1/faster-whisper-2.4.1.tgz
+    version: 2.4.1
+generated: "2025-02-17T07:58:51.121973549Z"
