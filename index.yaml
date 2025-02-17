@@ -1,5 +1,33 @@
 apiVersion: v1
 entries:
+  chartdb:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update chartdb/chartdb docker tag to v1.7.0
+    apiVersion: v2
+    appVersion: 1.7.0
+    created: "2025-02-17T09:01:31.573408782Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: chartdb helm package
+    digest: 7f0a1c0ab639b0fcb0a1618b5a9e1c144b2371f9b51fee537ed1d2f25cd69f7e
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/chartdb
+    icon: https://www.chartdb.co/favicon-32x32.png
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: chartdb
+    sources:
+    - https://github.com/chartdbco/chartdb
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/chartdb
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/chartdb-1.7.0/chartdb-1.7.0.tgz
+    version: 1.7.0
   faster-whisper:
   - annotations:
       artifacthub.io/changes: |-
@@ -32,4 +60,4 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/faster-whisper-2.4.1/faster-whisper-2.4.1.tgz
     version: 2.4.1
-generated: "2025-02-17T07:58:51.121973549Z"
+generated: "2025-02-17T09:01:31.573417869Z"
