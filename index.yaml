@@ -75,6 +75,38 @@ entries:
     urls:
     - https://github.com/JZacharie/tabby/releases/download/linkwarden-2.9.3/linkwarden-2.9.3.tgz
     version: 2.9.3
+  swingmusic:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update swingmusic/swingmusic docker tag to vv1.4.8
+    apiVersion: v2
+    appVersion: vv1.4.8
+    created: "2025-02-17T06:48:32.43329883Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: swingmusic helm package
+    digest: 70dcde7cae552bcab7ed6b1347f49ed7ea72b2c79e1f896394ee072c72864407
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/swingmusic
+    icon: https://www.swingmusic.co/favicon-32x32.png
+    keywords:
+    - pdf-signature
+    - pdf-sign
+    - document-signing
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: swingmusic
+    sources:
+    - https://github.com/swingmusicco/swingmusic
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/swingmusic
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/swingmusic-v1.4.8/swingmusic-v1.4.8.tgz
+    version: v1.4.8
   tabby:
   - annotations:
       artifacthub.io/changes: |-
@@ -107,6 +139,33 @@ entries:
     urls:
     - https://github.com/JZacharie/tabby/releases/download/tabby-1.61.0/tabby-1.61.0.tgz
     version: 1.61.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update tabbyml/tabby docker tag to 0.24.0
+    apiVersion: v2
+    appVersion: 0.24.0
+    created: "2025-02-17T06:48:32.496282647Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: tabby helm package
+    digest: fb587e7e20c33f76fa06eb94d8c66b8bc55befe4dc55ea1e516475a4cee9e45f
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/tabby
+    icon: https://www.tabby.co/favicon-32x32.png
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: tabby
+    sources:
+    - https://github.com/tabbyco/tabby
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/tabby
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/tabby-0.24.0/tabby-0.24.0.tgz
+    version: 0.24.0
   tabbyml:
   - annotations:
       artifacthub.io/changes: |-
@@ -137,4 +196,4 @@ entries:
     urls:
     - https://github.com/JZacharie/tabby/releases/download/tabbyml-1.1.0/tabbyml-1.1.0.tgz
     version: 1.1.0
-generated: "2025-02-16T14:39:06.001615229Z"
+generated: "2025-02-17T06:48:32.496293527Z"
