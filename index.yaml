@@ -92,4 +92,14 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/linkwarden-2.9.3/linkwarden-2.9.3.tgz
     version: 2.9.3
-generated: "2025-02-17T17:29:57.76539496Z"
+  pd3f:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-02-17T17:51:01.786860063Z"
+    description: A Helm chart for PD3F application
+    digest: 26f4dd87cccb4e30fe6b89d5d4d668163dd746d549bca18f0e0d7f126765d927
+    name: pd3f
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/pd3f-0.1.0/pd3f-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-02-17T17:51:01.786871975Z"
