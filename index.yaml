@@ -40,6 +40,36 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/itop-0.1.0/itop-0.1.0.tgz
     version: 0.1.0
+  traccar:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update traccar/traccar docker tag to v2.9.3
+    apiVersion: v2
+    appVersion: 8.0.1
+    created: "2025-02-18T05:47:56.180355056Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: traccar helm package
+    digest: 5572681524164e610fc25d3fc27c383e6e32e4ae8adef6e7e3acf1bd90678436
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/traccar
+    icon: https://www.traccar.co/favicon-32x32.png
+    keywords:
+    - docker
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: traccar
+    sources:
+    - https://github.com/traccarco/traccar
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/traccar
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/traccar-8.0.1/traccar-8.0.1.tgz
+    version: 8.0.1
   wud:
   - annotations:
       artifacthub.io/changes: |-
@@ -70,4 +100,4 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/wud-8.0.1/wud-8.0.1.tgz
     version: 8.0.1
-generated: "2025-02-18T05:37:02.532954909Z"
+generated: "2025-02-18T05:47:56.180365526Z"
