@@ -70,6 +70,36 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/traccar-8.0.1/traccar-8.0.1.tgz
     version: 8.0.1
+  watchyourlan:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update watchyourlan/watchyourlan docker tag to v2.9.3
+    apiVersion: v2
+    appVersion: 8.0.1
+    created: "2025-02-18T06:34:48.387157167Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: watchyourlan helm package
+    digest: 5c84881d9f3dba024a7ed339cc8ed3c17b7bd6006176d0bd5ddd370f8bf3e985
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/watchyourlan
+    icon: https://www.watchyourlan.co/favicon-32x32.png
+    keywords:
+    - docker
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: watchyourlan
+    sources:
+    - https://github.com/watchyourlanco/watchyourlan
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/watchyourlan
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/watchyourlan-2.0.4/watchyourlan-2.0.4.tgz
+    version: 2.0.4
   wud:
   - annotations:
       artifacthub.io/changes: |-
@@ -100,4 +130,4 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/wud-8.0.1/wud-8.0.1.tgz
     version: 8.0.1
-generated: "2025-02-18T05:47:56.180365526Z"
+generated: "2025-02-18T06:34:48.387167225Z"
