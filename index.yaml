@@ -1,0 +1,62 @@
+apiVersion: v1
+entries:
+  common:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update ghcr.io/coder/code-server to 4.93.1
+        - kind: changed
+          description: update docker.io/grafana/promtail to 3.2.1
+        - kind: changed
+          description: update docker.io/qmcgaw/gluetun to v3.39.1
+        - kind: fixed
+          description: properly handle empty paths in ingress configuration
+    apiVersion: v2
+    created: "2025-02-18T05:35:16.104322124Z"
+    description: Function library for Helm charts
+    digest: dbc85cf83ca0495032b3b74732450c41ada05c755c94e8b51b995ec8bde2ae77
+    home: https://github.com/zekker6/helm-charts/tree/main/charts/library/common
+    keywords:
+    - common
+    - library
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: common
+    type: library
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/common-0.5.2/common-0.5.2.tgz
+    version: 0.5.2
+  wud:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update wud/wud docker tag to v2.9.3
+    apiVersion: v2
+    appVersion: 8.0.1
+    created: "2025-02-18T05:35:16.187220514Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: wud helm package
+    digest: f281357931108e38a7318cb6fa99fd929c705b67ebf69ae2ffb30153f6fdecd9
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/wud
+    icon: https://www.wud.co/favicon-32x32.png
+    keywords:
+    - docker
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: wud
+    sources:
+    - https://github.com/wudco/wud
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/wud
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/wud-8.0.1/wud-8.0.1.tgz
+    version: 8.0.1
+generated: "2025-02-18T05:35:16.18722939Z"
