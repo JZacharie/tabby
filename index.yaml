@@ -29,6 +29,17 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/common-0.5.2/common-0.5.2.tgz
     version: 0.5.2
+  itop:
+  - apiVersion: v2
+    appVersion: 3.0.1
+    created: "2025-02-18T05:37:02.532948076Z"
+    description: A Helm chart for Kubernetes
+    digest: 1931fbfbe74575b4c6b873c098c6787347d87f9661feb6ed9073daf0e9de0e70
+    name: itop
+    type: application
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/itop-0.1.0/itop-0.1.0.tgz
+    version: 0.1.0
   wud:
   - annotations:
       artifacthub.io/changes: |-
@@ -59,4 +70,4 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/wud-8.0.1/wud-8.0.1.tgz
     version: 8.0.1
-generated: "2025-02-18T05:35:16.18722939Z"
+generated: "2025-02-18T05:37:02.532954909Z"
