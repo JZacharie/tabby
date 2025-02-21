@@ -163,6 +163,36 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/linkwarden-2.9.4/linkwarden-2.9.4.tgz
     version: 2.9.4
+  speaches:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update wud/wud docker tag to v2.9.3
+    apiVersion: v2
+    appVersion: 8.0.1
+    created: "2025-02-21T19:56:13.996271009Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: wud helm package
+    digest: 63c244eadc441b4f010203da2d50cae5a862d0f79e51a523a4f8d75c7c18a9cb
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/wud
+    icon: https://www.wud.co/favicon-32x32.png
+    keywords:
+    - docker
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: speaches
+    sources:
+    - https://github.com/wudco/wud
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/wud
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/speaches-1.0.0/speaches-1.0.0.tgz
+    version: 1.0.0
   swingmusic:
   - annotations:
       artifacthub.io/changes: |-
@@ -285,4 +315,4 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/wud-8.0.1/wud-8.0.1.tgz
     version: 8.0.1
-generated: "2025-02-21T05:35:46.44973714Z"
+generated: "2025-02-21T19:56:13.996285196Z"
