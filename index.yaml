@@ -131,6 +131,38 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/itop-0.1.0/itop-0.1.0.tgz
     version: 0.1.0
+  linkwarden:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update linkwarden/linkwarden docker tag to v2.9.3
+    apiVersion: v2
+    appVersion: v2.9.3
+    created: "2025-02-21T05:35:23.712066635Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: linkwarden helm package
+    digest: f6bf33cf34ea3b271ebe4d260f569002a7735e023f0378a89b4b64999cb28c5d
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/linkwarden
+    icon: https://www.linkwarden.co/favicon-32x32.png
+    keywords:
+    - pdf-signature
+    - pdf-sign
+    - document-signing
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: linkwarden
+    sources:
+    - https://github.com/linkwardenco/linkwarden
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/linkwarden
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/linkwarden-2.9.4/linkwarden-2.9.4.tgz
+    version: 2.9.4
   traccar:
   - annotations:
       artifacthub.io/changes: |-
@@ -221,4 +253,4 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/wud-8.0.1/wud-8.0.1.tgz
     version: 8.0.1
-generated: "2025-02-21T05:35:06.131804879Z"
+generated: "2025-02-21T05:35:23.712109745Z"
