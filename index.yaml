@@ -1,5 +1,33 @@
 apiVersion: v1
 entries:
+  chartdb:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update chartdb/chartdb docker tag to v1.7.0
+    apiVersion: v2
+    appVersion: 1.7.0
+    created: "2025-02-21T05:35:06.131758092Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: chartdb helm package
+    digest: 8c625e107a9a1fa73b3d78a11a6d464ef8f9e92e9dbd25e69279576bc71dcc18
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/chartdb
+    icon: https://www.chartdb.co/favicon-32x32.png
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: chartdb
+    sources:
+    - https://github.com/chartdbco/chartdb
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/chartdb
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/chartdb-1.7.2/chartdb-1.7.2.tgz
+    version: 1.7.2
   common:
   - annotations:
       artifacthub.io/changes: |-
@@ -193,4 +221,4 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/wud-8.0.1/wud-8.0.1.tgz
     version: 8.0.1
-generated: "2025-02-18T18:26:36.128070502Z"
+generated: "2025-02-21T05:35:06.131804879Z"
