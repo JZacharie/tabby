@@ -163,6 +163,38 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/linkwarden-2.9.4/linkwarden-2.9.4.tgz
     version: 2.9.4
+  swingmusic:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update swingmusic/swingmusic docker tag to vv1.4.8
+    apiVersion: v2
+    appVersion: vv1.4.8
+    created: "2025-02-21T05:35:46.449701403Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: swingmusic helm package
+    digest: 6a825412d6c7dbdb504995c819f5dc60e4111735a34ec8435d9145aafe85840d
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/swingmusic
+    icon: https://www.swingmusic.co/favicon-32x32.png
+    keywords:
+    - pdf-signature
+    - pdf-sign
+    - document-signing
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: swingmusic
+    sources:
+    - https://github.com/swingmusicco/swingmusic
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/swingmusic
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/swingmusic-v1.4.10/swingmusic-v1.4.10.tgz
+    version: v1.4.10
   traccar:
   - annotations:
       artifacthub.io/changes: |-
@@ -253,4 +285,4 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/wud-8.0.1/wud-8.0.1.tgz
     version: 8.0.1
-generated: "2025-02-21T05:35:23.712109745Z"
+generated: "2025-02-21T05:35:46.44973714Z"
