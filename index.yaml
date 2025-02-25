@@ -1,5 +1,33 @@
 apiVersion: v1
 entries:
+  bolt-diy:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: update bolt-diy/bolt-diy docker tag to v1.7.0
+    apiVersion: v2
+    appVersion: 1.7.0
+    created: "2025-02-25T14:22:32.918593412Z"
+    dependencies:
+    - name: common
+      repository: https://zekker6.github.io/helm-charts
+      version: 0.5.2
+    description: bolt-diy helm package
+    digest: ffb97d04cfcfea14ff234e6eb955f1c48e58ca97c4691528b7dcf8ff0a56e8ef
+    home: https://github.com/zekker6/helm-charts/tree/master/charts/apps/bolt-diy
+    icon: https://www.bolt-diy.co/favicon-32x32.png
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@zekker.dev
+      name: zekker6
+      url: https://github.com/zekker6/
+    name: bolt-diy
+    sources:
+    - https://github.com/bolt-diyco/bolt-diy
+    - https://github.com/zekker6/helm-charts/tree/master/charts/apps/bolt-diy
+    urls:
+    - https://github.com/JZacharie/helmscharts/releases/download/bolt-diy-0.1.0/bolt-diy-0.1.0.tgz
+    version: 0.1.0
   chartdb:
   - annotations:
       artifacthub.io/changes: |-
@@ -315,4 +343,4 @@ entries:
     urls:
     - https://github.com/JZacharie/helmscharts/releases/download/wud-8.0.1/wud-8.0.1.tgz
     version: 8.0.1
-generated: "2025-02-21T19:56:13.996285196Z"
+generated: "2025-02-25T14:22:32.91860811Z"
